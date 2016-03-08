@@ -10,7 +10,7 @@ Using the RCDateTimeDialog is really simple and easy. Here's a quick few lines o
 
         Dialog timeDatePicker = new Dialog(activity);
 
-        timeDatePicker.setContentView(R.layout.time_date_dialog);
+        timeDatePicker.setContentView(R.layout.rc_date_time_dialog);
         timeDatePicker.setTitle("Date and Time");
         DatePicker dp = (DatePicker) timeDatePicker.findViewById(R.id.datePicker1);
         dp.getCalendarView().setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
